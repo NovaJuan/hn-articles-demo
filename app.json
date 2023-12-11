@@ -1,7 +1,8 @@
 {
   "expo": {
-    "name": "hn-news",
-    "slug": "hn-news",
+    "entryPoint": "src/App.tsx",
+    "name": "hn-articles",
+    "slug": "hn-articles",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -15,13 +16,15 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.juanromero.hnarticles"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.juanromero.hnarticles"
     },
     "web": {
       "favicon": "./assets/favicon.png"
